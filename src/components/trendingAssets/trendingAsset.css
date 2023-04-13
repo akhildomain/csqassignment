@@ -1,0 +1,78 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: #14172B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 60px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.header img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 4px;
+
+}
+
+.pcolor {
+    color: #737BAE;
+    font-size: 12px;
+}
+
+.box {
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
+    backdrop-filter: blur(50px);
+}
+
+.prop-value {
+    background-color: #14172B;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.market-up {
+    font-size: 10px;
+    color: #00FFA3;
+    margin-left: 10px;
+    padding-bottom: 6px;
+}
+
+.market-down {
+    font-size: 10px;
+    color: #FF4D4D;
+    margin-left: 10px;
+    padding-bottom: 6px;
+}
+
+.circle {
+    display: grid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    place-items: center;
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+    backdrop-filter: blur(50px);
+}
+
+.parent-circle {
+    display: grid;
+    position: absolute;
+    left: 50%;
+    top: -37.5px;
+    background-color: #14172B;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    place-items: center;
+    transform: translate(-50%, 0px);
+
+}
+
+.box-content {
+    padding-top: 40px;
+}
