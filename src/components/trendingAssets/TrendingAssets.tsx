@@ -93,8 +93,8 @@ const TrendingAssets = () => {
     ]
 
     return (
-        <div className='container'>
-            <div className='content'>
+        <div className='pb'>
+            <div className='sb'>
                 <div className='header flex text-white mt-24 mb-24'>
                     <img src={vector} alt='vector' />
                     <p>Trending Assets</p>
